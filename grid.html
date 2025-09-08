@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px; 
+    }
+    .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="grid-item">heyy</div>
+    <div class="grid-item">you</div>
+    <div class="grid-item">are</div>
+    <div class="grid-item">my</div>
+    <div class="grid-item">special</div>
+    <div class="grid-item">person</div>
+  </div>
+
+</body>
+</html>
